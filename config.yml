@@ -14,6 +14,17 @@ menu:
         weight: 15
 
 params:
+  author: Andreas Chatzopoulos
+
+  profileMode:
+    # Disable to populate home page with 'mainSections' content
+    enabled: true
+    title: Andreas Chatzopoulos
+    description: |
+
+      University lecturer with a background in Cognitive
+Science and extensive programming experience
+
   socialIcons:
     - name: mastodon
       url: "https://zirk.us/home"
