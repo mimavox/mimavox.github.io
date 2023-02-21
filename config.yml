@@ -34,7 +34,7 @@ params:
     imageTitle: Andreas Chatzopoulos
     buttons:
     - name: CV (PDF)
-      url: /cv.pdf
+      url: /files/cv.pdf
 
   # Available icons (more in svg.html): codepen, cv, dev, discord, email, goodreads, googlescholar, instagram, linkedin, medium, matrix, phone, researchgate, telegram, youtube
   socialIcons:
