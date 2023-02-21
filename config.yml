@@ -1,0 +1,23 @@
+title: mimavox
+theme: charlolamode
+
+menu:
+  main:
+      - name: Code
+        url: /code/
+        weight: 30
+      - name: Research
+        url: /research/
+        weight: 20
+      - name: Articles
+        url: /articles/
+        weight: 15
+
+params:
+  socialIcons:
+    - name: mastodon
+      url: "https://zirk.us/home"
+    - name: github
+      url: "https://github.com/mimavox"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/chatzopoulos/"
