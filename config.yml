@@ -15,6 +15,10 @@ menu:
 
 params:
   author: Andreas Chatzopoulos
+  ShowReadingTime: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: false
 
   profileMode:
     # Disable to populate home page with 'mainSections' content
@@ -23,8 +27,16 @@ params:
     description: |
 
       University lecturer with a background in Cognitive
-      Science and extensive programming experience 
+      Science and extensive programming experience
+    
+    # Profile image in theme's static/images
+    imageUrl: "/images/profile.png"
+    imageTitle: Andreas Chatzopoulos
+    buttons:
+    - name: CV (PDF)
+      url: /cv.pdf
 
+  # Available icons (more in svg.html): codepen, cv, dev, discord, email, goodreads, googlescholar, instagram, linkedin, medium, matrix, phone, researchgate, telegram, youtube
   socialIcons:
     - name: mastodon
       url: "https://zirk.us/home"
@@ -32,3 +44,7 @@ params:
       url: "https://github.com/mimavox"
     - name: linkedin
       url: "https://www.linkedin.com/in/chatzopoulos/"
+    - name: researchgate
+      url: "https://www.researchgate.net/profile/Andreas-Chatzopoulos"
+    - name: email
+      url: "https://www.gu.se/en/about/find-staff/andreaschatzopoulos"
