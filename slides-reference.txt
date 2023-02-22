@@ -1,0 +1,6 @@
+A custom shortcode is created in layouts, which allows for inclusion of reveal-slides in html-format.
+
+Slides are exported as html and put in static/slides.
+They can then be embdedded in posts like so:
+
+{{< SlideInclusion "/slides/seminar230228/" >}}
